@@ -1,0 +1,21 @@
+{
+  "name": "whitelist-bot-fivem",
+  "version": "1.0.0",
+  "description": "Discord Whitelist Bot + Discord OAuth2 + MySQL + FiveM",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.0"
+  }
+}
